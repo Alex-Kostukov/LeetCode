@@ -1,5 +1,6 @@
-from collections import deque
+# https://leetcode.com/problems/min-stack/
 
+from collections import deque
 from bisect import insort_left
 
 
@@ -22,4 +23,3 @@ class MinStack:
 
     def getMin(self) -> int:
         return self.min_list[0]
-

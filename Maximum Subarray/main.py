@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/maximum-subarray/
+
 class Solution:
     def maxSubArray(self, nums: [int]) -> int:
         """
@@ -16,4 +18,3 @@ class Solution:
             i += 1
 
         return max_global
-

@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
 class Solution:
     def maxProfit(self, prices: [int]) -> int:
         if not prices:
@@ -13,4 +15,4 @@ class Solution:
 
 
 sol = Solution()
-print(sol.maxProfit([4,3,2,5]))
+print(sol.maxProfit([4, 3, 2, 5]))

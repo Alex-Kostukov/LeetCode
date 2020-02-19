@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/number-of-islands/
 class Solution:
     def numIslands(self, grid: [[str]]) -> int:
         def remove(i, j):
@@ -16,4 +17,3 @@ class Solution:
                     remove(i, j)
                     counter += 1
         return counter
-

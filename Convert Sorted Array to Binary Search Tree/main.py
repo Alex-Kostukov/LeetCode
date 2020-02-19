@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+
 class TreeNode:
     def __init__(self, x):
         self.val = x
@@ -26,6 +28,5 @@ class Solution:
                 node.left = get_BST(nums[:mid])
                 node.right = get_BST(nums[mid + 1:])
                 return node
-
 
         return get_BST(nums)

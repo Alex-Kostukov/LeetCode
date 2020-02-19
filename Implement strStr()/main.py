@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/implement-strstr/
+
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if not needle:
@@ -13,4 +15,3 @@ class Solution:
                 return i
 
         return -1
-

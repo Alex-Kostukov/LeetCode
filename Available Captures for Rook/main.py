@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/available-captures-for-rook/
+
 class Solution:
     def numRookCaptures(self, board: [[str]]) -> int:
 
@@ -30,4 +32,3 @@ class Solution:
         down = check_direction(*rook_pos, lambda i: i + 1, lambda j: j)
 
         return left + right + top + down
-
